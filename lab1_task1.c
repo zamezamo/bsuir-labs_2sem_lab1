@@ -20,6 +20,7 @@ struct byte { //поле бит
 union Byte {
     unsigned char value; //связываем число value с битовым полем 
     struct byte bitfield;
+    
 };
  
 void main() {
